@@ -1,0 +1,131 @@
+.body{
+
+}
+/* Navbar */
+.navbar-item{
+  padding: 0 20px;
+}
+/* Pages */
+.bg-img{
+  background-image:url("https://www.setaswall.com/wp-content/uploads/2017/12/Beach-Resort-Wallpaper-47-2560x1600.jpg");
+  background-size: cover;
+  padding: 50px 200px 400px;
+}
+#first-page{
+  padding-top: 100px;
+}
+#second-page{
+    background-color: #9ad3bc;
+    padding:5%;
+  }
+#third-page{
+  text-align: center;
+  background-color: #dbf6e9;
+  padding:5% 25%;
+}
+#fourth-page{
+  background-color: #9ad3bc;
+  padding:5% ;
+}
+#fifth-page{
+    background-color: #dbf6e9;
+    padding:5% ;
+    padding-top: 150px;
+
+}
+/* Divisions */
+#about-us{
+  margin-bottom: 100px;
+}
+#amenities{
+
+}
+
+
+/* images */
+#second-page img{
+  height:500px;
+  padding: 50px 0;
+}
+.about-us-img{
+  height: 400px;
+  width: 500px;
+  padding: 10px 0px 10px 0px;
+}
+.amenities-img{
+  height: 400px;
+  width: 500px;
+  padding: 10px 0px 10px 30px;
+}
+
+/* Fonts */
+.first-page-title{
+  font-size: 70px;
+  font-family: 'Bai Jamjuree', sans-serif;
+font-weight:bolder;
+color: white;
+text-align: center;
+padding: 0 10%;
+
+}
+.first-page-bio{
+  font-family: 'Goldman', cursive;
+  color: white;
+  text-align: center;
+  line-height: 1.5;
+font-size:25px;
+}
+.header{
+  font-family: 'Bai Jamjuree', sans-serif;
+  text-align: center;
+}
+.bio{
+  font-family: 'Open Sans', sans-serif;
+  font-size:25px;
+}
+.header-2nd-page{
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin-top: 40px;
+
+}
+.bio-2nd-page{
+  font-family: 'Open Sans', sans-serif;
+  font-size:20px;
+}
+
+/* footer */
+.footer{
+  color: white;
+  background-color: #39311d;
+  padding: 5% 15% 0;
+}
+.logo-box{
+  text-align: center;
+  padding: 100px 0 10px;
+}
+.logo{
+  padding-left:15px;
+}
+
+
+/* Media QUery */
+@media (max-width:990px){
+  .bg-img{
+    background-image:url("https://www.setaswall.com/wp-content/uploads/2017/12/Beach-Resort-Wallpaper-47-2560x1600.jpg");
+    background-size:cover;
+  }
+
+.about-us{
+  width:700px;
+  padding-bottom: 20px;
+  }
+
+.amenities{
+    width:700px;
+    padding-bottom: 20px;
+  }
+
+.bio-3rd-page{
+
+  }
+}
